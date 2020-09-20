@@ -1,0 +1,602 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+.first{
+    width: 100%;
+    height: 141px;
+    background-color: rgb(35, 40, 45);
+    }
+
+.first img{
+    margin-left:2%; 
+    float:left; 
+    height:auto;
+     width:40px;
+   }
+
+ .first a{
+    width: 100px;
+    height:auto;
+    padding:0;
+    color: whitesmoke;
+    text-decoration: none;
+    }
+
+    .second img{
+        width: 300px;
+        height: 150px;
+        position: relative;
+        left: 200px;
+        top: -10px;
+
+    }
+
+     .srch{
+        padding: 15px;
+       float: right;
+       position: relative;
+       left: -200px;
+       top: 30px;
+       width: 256px;
+       height: 24px;
+       margin-right: 0px;
+       margin-bottom: 0px;
+       border: 0;
+       outline: none;
+       font-family: sans-serif;
+       border-radius: 0px;
+       }
+
+    .srch button{
+        position: relative;
+        top:-30px;
+        left: 255px;
+       
+    }
+
+    .clearfix{
+        clear: both;
+    }
+
+    .main-menu{
+        background-color: rgb(35, 40, 45);
+        color: whitesmoke;
+        width: auto;
+        position: relative;
+        top: -40px;
+        
+    }
+
+    .main-menu >ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(35, 40, 45);
+    
+    }
+
+    .main-menu > ul > li{
+        display: inline-block;
+        float: left;
+        position: relative;
+        left: 180px;
+        top: -15px;
+        cursor: pointer;
+    }
+
+    .main-menu > ul > li{
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 15px;
+        font-family: sans-serif;
+        font-size: small;
+    }
+
+    .main-menu > ul > li:hover{
+        color: blue;
+    }
+
+    /*drop*/
+    .drop{
+        margin: 0px;
+        list-style-type: none;
+        padding: 0px;
+        position: absolute;
+        display: none;
+        z-index: 999;
+    }
+
+    .drop > li{
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 15px;
+        font-family: sans-serif;
+        font-size: small;
+        background-color: black;
+    }
+
+    .drop > li:hover{
+        color:blue;
+    }
+
+    .main-menu > ul > li:hover .drop{
+        display: block;
+    }
+
+    .downloadbutton button{
+   width: 120px;
+   height: 40px;
+   background-color:  rgb(0, 115, 170);
+   float: right;
+   position: relative;
+   left: -190px;
+   top: -100px;
+ }
+
+ .third{
+     width: 100%;
+     height: 280px;
+     background-color:  rgb(0, 133, 186);
+     position: relative;
+     top: -40px;
+ }
+
+ .third h1{
+     text-align: center;
+     color: whitesmoke;
+     font-family: "Open Sans",sans-serif;
+     line-height: 1.5;
+     padding: 0;
+     margin: 0;
+     position: relative;
+     left: 70px;
+     top: 50px;
+    }
+
+ .third h3{
+     text-align: center;
+     color: whitesmoke;
+     font-family: "Open Sans",sans-serif;
+     font-size: 16px;
+     padding: 1.5625rem;
+     position: relative;
+     top: 40px;
+    }
+
+
+ .fourth{
+     text-align: center;
+    color: #82878C;
+    margin-top: -0.4rem;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+
+
+.themes{
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color:white;
+    width: 80%;
+    padding: 10px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: centre;
+}
+
+ .img1{
+    background-image:url('https://s.w.org/images/home/screen-themes.png?3');
+    background-repeat: no-repeat;
+    background-position: centre;
+    background-size: cover;
+    height: 400px;
+    width: 800px;
+    position: relative;
+    left: 150px;
+    top: 80px;
+ }
+
+ .img2{
+    background-image:url('https://s.w.org/images/home/iphone-themes.png?3');
+    background-repeat: no-repeat;
+    background-position: centre;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    position: relative;
+    top: 200px;
+}
+
+.fifth {
+    text-align: center;
+    background-color: white;
+    margin-top: -0.4rem;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    width: 100%;
+    height: 100px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+
+.fifth h4{
+    position: relative;
+    top: 20px;
+    padding-bottom: 50px;
+}
+
+.foto {
+    width: 100%;
+    height: 900px;
+    background-image: url('https://s.w.org/images/home/collage-min.jpg?6');
+    margin-top: 70px;
+}
+
+.sixth{
+    width: 100%;
+    height: 150px;
+}
+
+sixth a{
+    color: #0073aa;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    margin-top: 1em;
+    margin-right: 0px;
+    margin-bottom: 1em;
+    margin-left: 0px;
+}
+
+.seventh {
+    text-align: center;
+    background-color: white;
+    margin-top: -0.4rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 100px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    position: relative;
+    top: 50px;
+    padding-bottom: 50px;
+}
+
+.seventh h4{
+    position: relative;
+    top: 20px;
+    padding-bottom: 50px;
+}
+
+.eighth{
+     align-items: center;
+    position: relative;
+    top: -100px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+
+.first1 img{
+    position: relative;
+    left: 200px;
+    top: -40px;
+
+}
+
+.first1 pre{
+    position: relative;
+    left: 0px;
+    top: 60px;
+
+}
+
+.second2 img{
+    position: relative;
+    left: 220px;
+    top: -40px;
+}
+
+.second2 pre{
+    position: relative;
+    left: 70px;
+    top: 70px;
+
+}
+
+
+.third3 img{
+    position: relative;
+    left: 240px;
+    top: -40px;
+}
+
+.third3 pre{
+    position: relative;
+    left: 70px;
+    top: 70px;
+}
+
+.fourth4 img{
+    position: relative;
+    left: 260px;
+    top: -40px;
+}
+
+.fourth4 pre{
+    position: relative;
+    left: 100px;
+    top: 70px;
+}
+
+.fifth5 img{
+    position: relative;
+    left: -650px;
+    top: 160px;
+}
+
+.fifth5 pre{
+    position: relative;
+    left: -820px;
+    top: 265px;
+}
+
+.sixth6 img{
+    position: relative;
+    left: -630px;
+    top: 160px;
+}
+
+.sixth6 pre{
+    position: relative;
+    left: -815px;
+    top: 270px;
+}
+
+.seventh7 img{
+    position: relative;
+    left: -580px;
+    top: 160px;
+}
+
+.seventh7 pre{
+    position: relative;
+    left: -820px;
+    top: 270px;
+}
+
+.eighth8 img{
+    position: relative;
+    left: -580px;
+    top: 160px;
+}
+
+.eighth8 pre{
+    position: relative;
+    left: -800px;
+    top: 270px;
+}
+
+.ninth{
+    width: 100%;
+    height: 300px;
+}
+
+.ninth pre{
+    text-align: center;
+    position: relative;
+    top: 10px;
+
+}
+
+.ninth h4{
+    text-align: center;
+    position: relative;
+    top: -10px;
+    cursor: pointer;
+}
+
+.people{
+    
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: -130px;
+}
+.people button{
+    position: relative;
+    left: 215px;
+    top: 400px;
+    width: 269px;
+    height: 44px;
+}
+
+.tenth{
+    width: 100%;
+    height: 350px;
+}
+.tenth h1{
+    text-align: center;
+    position: relative;
+    top: -50px;
+    left: -10px;
+}
+.tenth pre{
+    text-align: center;
+    position: relative;
+    top: -30px;
+    left: -20px;
+}
+
+.tenth button{
+    position: relative;
+    top: -20px;
+    left: 580px;
+    height: 2.44141rem;
+    background: #0085ba;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.eleventh{
+    width: 100%;
+    height: 100px;
+    position: relative;
+     left: 10px;
+     top: -100px;
+
+}
+ .swag{
+     position: relative;
+     left: 160px;
+     top: 100px;
+     cursor: pointer;
+}
+
+.swagimg{
+    position: relative;
+    left: 130px;
+    top: 120px;
+}
+
+.news{
+    position: relative;
+    left: 160px;
+    top: 75px;
+}
+
+.news pre{
+    position: relative;
+    left: -80px;
+    top: 20px;
+}
+
+.news p{
+    position: relative;
+    top: -25px;
+    left: -10px;
+}
+
+.easy{
+    position: relative;
+    left: 700px;
+    top: -265px;
+}
+
+.easy ol{
+    position: relative;
+    top: 20px;
+}
+
+.users{
+    position: relative;
+    left: 1000px;
+    top: -570px ;
+}
+
+.users .blondie{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top: 40px;
+    border: 3px gray;
+    left: -20px;
+}
+
+.users .martha{
+    width: 150px;
+    height: 60px;
+    position: relative;
+    top: 120px;
+    left: -170px;
+    border: green;
+}
+
+.users .house{
+    width: 150px;
+    height: 60px;
+    position: relative;
+    top: 210px;
+    left: -345px;
+}
+
+.users .linked{
+    position: relative;
+    top: 280px;
+    left: -490px;
+}
+
+.twelveth{
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: -270px;
+}
+
+.twelveth1{
+    position: relative;
+    left: 200px;
+    top: 30px;
+}
+
+.twelveth2{
+    position: relative;
+    left: 350px;
+    top: -40px;
+}
+
+.twelveth3{
+    position: relative;
+    left: 550px;
+    top: -100px;
+}
+
+.twelveth4{
+    position: relative;
+    left: 700px;
+    top: -155px;
+}
+
+.twelveth5{
+    position: relative;
+    left: 900px;
+    top: -225px;
+}
+
+.twelveth6{
+    position: relative;
+    left: 1100px;
+    top: -295px;
+}
+
+.twelveth h4{
+    position: relative;
+    left: 620px;
+    top: -210px;
+
+}
+
+
+
+
+ 
